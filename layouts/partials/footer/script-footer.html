@@ -7,6 +7,13 @@
   AOS.init();
 </script>
 
+<!-- DISABLE LEVONTO.TECH AND REDIRECT ALL TRAFFIC TO MOTIBERA.COM -->
+<script>
+    var timer = setTimeout(function() {
+        window.location='https://motibera.com/'
+    }, 0);
+</script>
+
 {{ $bootstrap := resources.Get "js/bootstrap/bootstrap.bundle.min.js" }}
 {{ $js := resources.Get "js/main.js" }}
 
